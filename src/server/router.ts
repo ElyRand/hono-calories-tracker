@@ -1,5 +1,4 @@
 import { publicProcedure, router } from "./init";
-import { z } from "zod";
 
 export const appRouter = router({
   userList: publicProcedure.query(() => {
